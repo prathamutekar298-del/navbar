@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="main-header">
+    <a class="logo" href="index.html">Navbar<span>Lab</span></a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="whatsapp.html">WhatsApp</a>
+        <a href="linkedin.html">LinkedIn</a>
+        <a href="bookmyshow.html">BookMyShow</a>
+        <a href="wisdom.html">Wisdom Sprouts</a>
+        <a href="instagram.html">Instagram Footer</a>
+    </nav>
+</header>
+
+<main class="container">
+    <h1>BookMyShow Navbar</h1>
+
+    <div class="bms-navbar">
+        <a href="#home" class="bms-logo">book<span>my</span>show</a>
+
+        <form action="#results" method="get" class="bms-search">
+            <button type="submit" aria-label="Search">⌕</button>
+            <input type="search" name="q"
+                placeholder="Search for Movies, Events, Plays, Sports and Activities">
+        </form>
+
+        <form action="#city-selected" method="get" class="city-form">
+            <label for="city">City</label>
+            <select name="city" id="city">
+                <option>Pune</option>
+                <option>Mumbai</option>
+                <option>Hyderabad</option>
+                <option>Delhi</option>
+                <option>Bengaluru</option>
+            </select>
+        </form>
+
+        <a href="#signin" class="signin">Sign in</a>
+
+        <div class="css-dropdown">
+            <a href="#menu" class="bms-menu">☰</a>
+            <div class="dropdown-content dropdown-right">
+                <a href="#bookings">Your bookings</a>
+                <a href="#help">Help centre</a>
+                <a href="#offers">Offers</a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="bms-categories">
+        <a href="#movies">Movies</a>
+        <a href="#stream">Stream</a>
+        <a href="#events">Events</a>
+        <a href="#plays">Plays</a>
+        <a href="#sports">Sports</a>
+        <a href="#activities">Activities</a>
+        <span class="category-spacer"></span>
+        <a href="#list-your-show">ListYourShow</a>
+        <a href="#corporates">Corporates</a>
+        <a href="#offers">Offers</a>
+        <a href="#gift-cards">Gift Cards</a>
+    </nav>
+
+    <p class="note">Search, city selection and links are HTML controls. Real booking and sign-in require a backend.</p>
+    <a class="back-link" href="index.html">← Back to Home</a>
+</main>
+
+</body>
+</html>
